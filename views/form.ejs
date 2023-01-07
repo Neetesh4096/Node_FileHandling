@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Index</title>
+  </head>
+  <body>
+    <div><h2><%= message %></h2></div>
+    <div id="form">
+      <form action="/up" method="POST" enctype="multipart/form-data">
+        File to upload: <input type="file" name="image" /><br />
+        <!-- Notes about the file: <input type="text" name="note" /><br /> -->
+        <br />
+
+        <input type="submit" value="Press" /> to upload the file!
+      </form>
+    </div>
+  </body>
+</html>
